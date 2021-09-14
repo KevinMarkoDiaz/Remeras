@@ -1,0 +1,376 @@
+
+
+.fpcligaBet{
+    display: flex;
+    background-image: url("/img/logolig.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 40vw;
+    height:50vh;
+    margin: 10vh auto;
+}
+
+.fpcligaBetTexto{
+    padding:5vw ;
+    width: 40vw;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    font-family:'Poppins', sans-serif;
+    border-left: 3px solid rgb(187, 187, 187);
+
+}
+.fpcligaBetTexto:hover{
+    border-left:3px solid rgb(241, 245, 0);
+
+}
+/*estilos FPC millos*/
+.fpcligaBetmi{
+    display: flex;
+    background-image: url("/img/fpc/ligmil.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 50vw;
+    height:50vh;
+    margin: 10vh auto;
+    margin-top: 20vh;
+}
+.fpcligaBetmi2{
+    display: flex;
+    background-image: url("/img/fpc/ligmil2.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 50vw;
+    height:50vh;
+    margin: 10vh auto;
+    margin-top: 20vh;
+}
+.fpcligaBetTextoMil{
+    padding:5vw ;
+    width: 40vw;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    font-family:'Poppins', sans-serif;
+    border-left: 1px solid rgb(187, 187, 187);
+
+}
+.fpcligaBetTextobMil{
+    padding:5vw ;
+    width: 40vw;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    font-family:'Poppins', sans-serif;
+    border-top: 1px solid rgb(187, 187, 187);
+
+}
+
+.fpcligaBetTextobMil:hover{
+    border-top:1px solid rgb(15, 0, 150);
+}
+.fpcligaBetTextoMil:hover{
+    border-left:1px solid rgb(15, 0, 150);
+}
+
+/*estilos FPC america*/
+.fpcligaBeta{
+    display: flex;
+    background-image: url("../../img/fpc/ligam.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 50vw;
+    height:40vh;
+    margin: 10vh auto;
+    margin-top: 20vh;
+}
+.fpcligaBeta2{
+    display: flex;
+    background-image: url("../../img/fpc/ligam2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 50vw;
+    height:40vh;
+    margin: 10vh auto;
+    margin-top: 20vh;
+}
+
+.fpcligaBetTextob{
+    padding:5vw ;
+    width: 40vw;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    font-family:'Poppins', sans-serif;
+    border-top: 1px solid rgb(187, 187, 187);
+
+}
+.fpcligaBetTextob:hover{
+    border-top:1px solid rgb(245, 0, 0);
+
+}
+/*estilos FPC cali*/
+.fpcligaBetc{
+    display: flex;
+    background-image: url("../../img/fpc/ligca.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 50vw;
+    height:50vh;
+    margin: 10vh auto;
+    margin-top: 20vh;
+}
+.fpcligaBetc2{
+    display: flex;
+    background-image: url("../../img/fpc/ligca2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 50vw;
+    height:50vh;
+    margin: 10vh auto;
+    margin-top: 20vh;
+}
+.fpcligaBetTextoCali{
+    padding:5vw ;
+    width: 40vw;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    font-family:'Poppins', sans-serif;
+    border-left: 1px solid rgb(187, 187, 187);
+
+}
+.fpcligaBetTextobCali{
+    padding:5vw ;
+    width: 40vw;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    font-family:'Poppins', sans-serif;
+    border-top: 1px solid rgb(187, 187, 187);
+
+}
+
+.fpcligaBetTextobCali:hover{
+    border-top:1px solid rgb(0, 138, 7);
+}
+.fpcligaBetTextoCali:hover{
+    border-left:1px solid rgb(0, 138, 7);
+}
+
+/*estilos FPC dim*/
+.fpcligaBetm{
+    display: flex;
+    background-image: url("../../img/fpc/ligme.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 50vw;
+    height:50vh;
+    margin: 10vh auto;
+    margin-top: 20vh;
+}
+.fpcligaBetm2{
+    display: flex;
+    background-image: url("../../img/fpc/ligme2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 50vw;
+    height:50vh;
+    margin: 10vh auto;
+    margin-top: 20vh;
+}
+.fpcligaBetTextoDim{
+    padding:5vw ;
+    width: 40vw;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    font-family:'Poppins', sans-serif;
+    border-left: 1px solid rgb(187, 187, 187);
+
+}
+.fpcligaBetTextobDim{
+    padding:5vw ;
+    width: 40vw;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    font-family:'Poppins', sans-serif;
+    border-top: 1px solid rgb(187, 187, 187);
+
+}
+
+.fpcligaBetTextobDim:hover{
+    border-top:1px solid rgb(158, 0, 0);
+}
+.fpcligaBetTextoDim:hover{
+    border-left:1px solid rgb(158, 0, 0);
+}
+
+/*estilos FPC Jun*/
+.fpcligaBetj{
+    display: flex;
+    background-image: url("../../img/fpc/ligjun.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 50vw;
+    height:50vh;
+    margin: 10vh auto;
+    margin-top: 20vh;
+}
+.fpcligaBetj2{
+    display: flex;
+    background-image: url("../../img/fpc/ligjun2.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 50vw;
+    height:50vh;
+    margin: 10vh auto;
+    margin-top: 20vh;
+}
+.fpcligaBetTextoJun{
+    padding:5vw ;
+    width: 40vw;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    font-family:'Poppins', sans-serif;
+    border-left: 1px solid rgb(187, 187, 187);
+
+}
+.fpcligaBetTextobJun{
+    padding:5vw ;
+    width: 40vw;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    font-family:'Poppins', sans-serif;
+    border-top: 1px solid rgb(187, 187, 187);
+
+}
+
+.fpcligaBetTextobJun:hover{
+    border-top:1px solid rgb(158, 0, 0);
+}
+.fpcligaBetTextoJun:hover{
+    border-left:1px solid rgb(158, 0, 0);
+}
+
+/*estilos FPC San*/
+.fpcligaBets{
+    display: flex;
+    background-image: url("../../img/fpc/ligsa.jpg.crdownload");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 50vw;
+    height:50vh;
+    margin: 10vh auto;
+    margin-top: 20vh;
+}
+.fpcligaBets2{
+    display: flex;
+    background-image: url("../../img/fpc/ligsa2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 50vw;
+    height:40vh;
+    margin: 10vh auto;
+    margin-top: 20vh;
+}
+.fpcligaBetTextoSan{
+    padding:5vw ;
+    width: 40vw;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    font-family:'Poppins', sans-serif;
+    border-left: 1px solid rgb(187, 187, 187);
+
+}
+.fpcligaBetTextobSan{
+    padding:5vw ;
+    width: 40vw;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    font-family:'Poppins', sans-serif;
+    border-top: 1px solid rgb(187, 187, 187);
+
+}
+
+.fpcligaBetTextobSan:hover{
+    border-top:1px solid rgb(255, 0, 0);
+}
+.fpcligaBetTextoSan:hover{
+    border-left:1px solid rgb(255, 0, 0);
+}
+/*estilos FPC Nac*/
+.fpcligaBetna{
+    display: flex;
+    background-image: url("../../img/fpc/ligana.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 50vw;
+    height:50vh;
+    margin: 10vh auto;
+    margin-top: 20vh;
+}
+.fpcligaBetna2{
+    display: flex;
+    background-image: url("../../img/fpc/ligna2.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 50vw;
+    height:40vh;
+    margin: 10vh auto;
+    margin-top: 20vh;
+}
+.fpcligaBetTextoNac{
+    padding:5vw ;
+    width: 40vw;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    font-family:'Poppins', sans-serif;
+    border-left: 1px solid rgb(187, 187, 187);
+
+}
+.fpcligaBetTextobNac{
+    padding:5vw ;
+    width: 40vw;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    font-family:'Poppins', sans-serif;
+    border-top: 1px solid rgb(187, 187, 187);
+
+}
+
+.fpcligaBetTextobNac:hover{
+    border-top:1px solid rgb(0, 160, 35);
+}
+.fpcligaBetTextoNac:hover{
+    border-left:1px solid rgb(0, 160, 35);
+}
+
+
+
+
+
+
+

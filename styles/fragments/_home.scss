@@ -1,0 +1,46 @@
+.masVendidosContenedor{
+    display: flex;
+    padding: 5vw;
+    flex-flow: wrap;
+
+    .masVendidosContenedorTexto{
+        width: 20vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border: none;
+        margin: 3vw;
+    }
+    .masVendidosContenedorHijoImg {    
+        border: 1px solid rgb(223, 223, 223);
+        margin: 1vw;
+        width: 19vw;
+        padding: 0px 1vw;
+
+        .masVendidosContenedorImg {
+            width: 17vw;
+            height: auto;
+        }
+    }
+    
+    .masVendidosContenedorHijoImg  img{    
+        border: 1px solid rgb(223, 223, 223);  
+    }
+    .masVendidosContenedorHijoImg div{
+        margin: 5% ;
+    }
+    .masVendidosContenedorHijoImg div h3{
+        font-weight: 600;
+        font-size:1.5rem;
+    }
+    .masVendidosContenedorHijoImg div p{
+        width: 18vw;
+    }
+    
+    .masVendidosContenedorImg {
+        width: 17vw;
+        height: auto;
+    }
+
+}

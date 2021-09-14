@@ -1,0 +1,54 @@
+.footer{
+    display: flex;
+    padding: 25px;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    font-weight: 700; 
+    flex-direction: column;  
+
+    .socialMedia{
+        justify-content: space-between;
+        display: flex;
+        padding: 0px 6vw;
+        font-family: $fuente_principal;
+
+        .socialMedia__iconos{
+            font-size: 2rem;
+        }
+    }
+}
+
+.links{
+    
+    display: flex;
+    width: fullScreenW;
+    justify-content: space-evenly;
+
+    ul {
+        
+        display: flex;
+        width: fullScreenW;
+        list-style: none;
+        margin: 2rem ;
+        text-transform: uppercase;
+        font-family: $fuente_principal;
+        justify-content: space-evenly;
+        a {
+            padding: 1rem;
+            color: #fff;
+            text-decoration: none;
+            border-left: 2px solid #000;
+        }
+        a:hover{
+            border-left: 2px solid rgb(252, 250, 250);
+
+        }
+    }
+}
+
+.links__equipos{
+    display: flex;
+    flex-flow: column;
+}
+

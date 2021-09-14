@@ -1,0 +1,110 @@
+
+
+.bodyMain{
+    width: $fullScreenW;
+
+    .header__sup{
+        background-image: linear-gradient(to left, rgb(184, 183, 183), rgba(255, 251, 6, 0.904));
+        height: 10vh;
+        width: 100%;
+    }
+
+ 
+    .contenedorNavbar{
+        display: flex;
+        background-image: url("/img/banCem.jpg") ;
+        justify-content: start;
+        align-items:baseline;
+        height: 100px;
+        padding-top: 5px;
+        border: 1px solid $color_primariocolor;
+    
+        .contenedorNavbar__logo{
+            
+            img{
+                height: 5vw;
+                width: auto;    
+                margin: 1vw;
+            }
+        } 
+            
+        .contenedorNavbar__ListaMenu_cuerpo{
+            display: flex;
+            columns: #000;
+            text-decoration: none; 
+            
+            .contenedorNavbar__ListaMenu{
+                display: flex;
+                flex-flow: wrap;
+                list-style: none;
+
+                ul{
+                    position: absolute;                  
+                }
+
+                li a {
+                        padding: 10px 2vw;
+                        display: flex;
+                        text-align: center;
+                        justify-content: space-evenly;
+                        text-transform: uppercase;
+                        text-decoration: none;
+                        font-weight: 500;
+                        color: rgb(0, 0, 0);
+                        font-weight: 900;
+                        font-size: 1rem;
+                        font-family: 'Anton', sans-serif;
+                        border-left: 3px solid rgb(241, 245, 0);   
+                }
+
+                li a:hover{
+                    background-color: rgba(0, 0, 20, 0.5);
+                    border-left: 3px solid rgb(0, 0, 0);
+                    color: rgb(241, 245, 0);
+                    transition: 300ms;
+                    position :relative;    
+            }
+
+            li ul {
+                display: none;
+            }
+              
+                li:hover > ul{
+                    display: inline-block;
+                    list-style: none;
+                    text-decoration: none;
+                    font-weight: 700;
+                    font-family:'Poppins', sans-serif;
+                    color: black;                  
+                    background-color: rgba(0, 0, 20, 0.5);
+                    padding: 5vh 2vw;
+                    z-index: 100;
+                    width: 20vw;
+                    height: 40vh;
+                }
+                
+                &.listadeplegable{
+                    display: none;
+                    font-weight: 700;
+                    font-family:'Poppins', sans-serif;
+                    color: rgb(0, 0, 0);
+                    text-decoration: none;
+                    font-size: 14px;                    
+                            
+                    li{
+                        
+                        color: #fff;
+
+                    }
+                }                                   
+                                    
+                }
+        }
+    }
+}
+    
+    
+
+
+
+
